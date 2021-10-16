@@ -1,0 +1,11 @@
+.header__lang-link {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-link {
+    font-size: 18px;
+  }
+ }

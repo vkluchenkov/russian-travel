@@ -1,0 +1,28 @@
+.root {
+  font-family: 'Inter', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  background-color: #2A2C2F;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  padding: 28px 48px 24px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 768px) {
+  .root {
+    padding: 28px 24px 24px;
+  }
+ }
+
+ @media screen and (max-width: 425px) {
+  .root {
+    padding: 16px;
+  }
+ }

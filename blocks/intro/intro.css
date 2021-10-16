@@ -1,0 +1,17 @@
+.intro {
+  grid-area: intro;
+  box-sizing: border-box;
+  padding: 92px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 88px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    padding: 64px 0;
+  }
+}

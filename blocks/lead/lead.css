@@ -1,0 +1,9 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: lead;
+  box-sizing: border-box;
+  padding: 56px 0 0;
+  overflow:visible;
+}
