@@ -15,6 +15,18 @@
   overflow-y: scroll;
 }
 
+.root::-webkit-scrollbar {
+  width: 3px;
+}
+
+.root::-webkit-scrollbar-track {
+  background-color: #444;
+}
+
+.root::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+}
+
 @media screen and (max-width: 768px) {
   .root {
     padding: 28px 24px 24px;

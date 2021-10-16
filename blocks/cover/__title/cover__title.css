@@ -6,7 +6,6 @@
   color: white;
   max-width: 570px;
   margin: 0 auto;
-  z-index: 1;
 }
 
 @media screen and (max-width: 720px) {
