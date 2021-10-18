@@ -9,7 +9,7 @@
   ". intro intro intro intro intro intro intro . . . ."
   "photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid"
   ". places places places places places places places places places places ."
-  "cover cover cover cover cover cover cover cover cover cover cover cover"
+  "cover cover cover cover cover cover cover cover cover cover cover cover";
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,7 +19,7 @@
   "intro intro intro intro intro intro intro intro intro . . . "
   "photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid photo-grid "
   "places places places places places places places places places places places places"
-  "cover cover cover cover cover cover cover cover cover cover cover cover"
+  "cover cover cover cover cover cover cover cover cover cover cover cover";
   }
 }
 
