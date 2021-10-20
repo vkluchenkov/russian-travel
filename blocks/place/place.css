@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 40px;
   grid-row-gap: 48px;
-  padding-bottom: 80px;
+  padding: 0 0 80px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,7 +15,7 @@
 @media screen and (max-width: 768px) {
   .place {
     grid-column-gap: 28px;
-    padding-bottom: 73px;
+    padding: 0 24px 73px;
   }
 }
 
@@ -24,5 +24,11 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    padding: 0 16px 73px;
   }
 }

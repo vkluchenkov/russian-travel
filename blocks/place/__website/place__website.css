@@ -1,6 +1,11 @@
 .place__website {
   color: white;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
   text-decoration: underline;
+}
+
+.place__website:hover {
+  opacity: .8;
 }

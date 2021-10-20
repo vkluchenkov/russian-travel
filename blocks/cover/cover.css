@@ -1,26 +1,6 @@
 .cover {
   grid-area: cover;
-  position: relative;
   width: 100%;
-}
-
-@media screen and (max-width: 1024px) {
-  .cover {
-    width: 100vw;
-    right: 48px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    width: 100vw;
-    right: 24px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .cover {
-    width: 100vw;
-    right: 16px;
-  }
+  background-color: #2a2c2f;
+  position: relative;
 }

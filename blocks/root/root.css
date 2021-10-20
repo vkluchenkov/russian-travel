@@ -6,35 +6,19 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  background-color: #2A2C2F;
+  background-color: #2a2c2f;
   box-sizing: border-box;
-  width: 100vw;
-  height: 100vh;
-  padding: 28px 48px 24px;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-
-.root::-webkit-scrollbar {
-  width: 3px;
-}
-
-.root::-webkit-scrollbar-track {
-  background-color: #444;
-}
-
-.root::-webkit-scrollbar-thumb {
-  background-color: #bbb;
+  padding: 28px 0 24px;
 }
 
 @media screen and (max-width: 768px) {
   .root {
-    padding: 28px 24px 24px;
+    padding: 28px 0 24px;
   }
- }
+}
 
- @media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .root {
-    padding: 16px;
+    padding: 16px 0 16px;
   }
- }
+}
