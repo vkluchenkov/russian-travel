@@ -1,0 +1,8 @@
+.cover__image {
+  width: 100%;
+  opacity: .8;
+}
+
+.cover:hover .cover__image {
+  opacity: .3;
+}

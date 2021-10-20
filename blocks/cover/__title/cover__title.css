@@ -3,9 +3,9 @@
   font-size: 72px;
   line-height: 1.06;
   text-align: center;
-  color: white;
   max-width: 570px;
-  margin: 0 auto;
+  margin: 0 auto 32px;
+  color: white;
 }
 
 @media screen and (max-width: 720px) {
