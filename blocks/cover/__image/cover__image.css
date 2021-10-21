@@ -1,6 +1,10 @@
 .cover__image {
+  padding-top: 62.5%;
   width: 100%;
   opacity: .8;
+  background-image: url(../../../images/cover-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .cover:hover .cover__image {
