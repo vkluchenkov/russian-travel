@@ -7,3 +7,10 @@
     align-self: flex-start;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .place__url {
+    align-self: flex-start;
+    padding: 0 16px 0;
+  }
+}

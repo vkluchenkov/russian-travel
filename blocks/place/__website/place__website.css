@@ -4,6 +4,9 @@
   font-size: 18px;
   line-height: 1.22;
   text-decoration: underline;
+  text-underline-offset: 3px;
+  transition-property: opacity;
+  transition-duration: .3s;
 }
 
 .place__website:hover {

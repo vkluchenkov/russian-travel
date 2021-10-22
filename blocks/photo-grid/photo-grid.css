@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 16px;
-  padding: 0 0 92px;
+  padding: 0 0 95px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -25,6 +25,6 @@
   .photo-grid {
     grid-template-columns: 1fr;
     grid-gap: 12px;
-    padding: 0 16px 88px;
+    padding: 0 16px 66px;
   }
 }

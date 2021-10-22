@@ -4,5 +4,23 @@
   align-items: center;
   grid-area: lead;
   box-sizing: border-box;
-  padding: 56px 0 0;
+  padding: 51px 0 0;
+}
+
+@media screen and (max-width:1024px) {
+  .lead {
+    padding: 45px 0 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .lead {
+    padding: 43px 0 0;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .lead {
+    padding: 40px 0 0;
+  }
 }

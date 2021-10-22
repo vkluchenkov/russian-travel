@@ -5,13 +5,15 @@
   line-height: 1.12;
   color: white;
   text-decoration: none;
+  transition-property: opacity;
+  transition-duration: .3s;
 }
 
 .footer__link:hover {
   opacity: .8;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 800px) {
   .footer__link {
     font-size: 20px;
   }
@@ -20,5 +22,6 @@
 @media screen and (max-width: 425px) {
   .footer__link {
     font-size: 24px;
+    line-height: 1;
   }
 }

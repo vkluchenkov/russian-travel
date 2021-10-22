@@ -1,9 +1,8 @@
 .cover {
   grid-area: cover;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  aspect-ratio: 1 / .625;
   width: 100%;
-  background-color: #2a2c2f;
-  position: relative;
+  background-image: url(../../../images/cover-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
