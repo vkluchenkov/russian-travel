@@ -2,7 +2,7 @@
   align-self: flex-end;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 750px) {
   .place__url {
     align-self: flex-start;
   }
@@ -10,7 +10,6 @@
 
 @media screen and (max-width: 425px) {
   .place__url {
-    align-self: flex-start;
     padding: 0 16px 0;
   }
 }

@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .place {
     grid-template-columns: fit-content(340px)  1fr;
     grid-column-gap: 28px;
@@ -25,7 +25,7 @@
   }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 750px) {
   .place {
     display: flex;
     flex-direction: column;

@@ -8,10 +8,15 @@
   padding: 92px 48px 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
+  .footer {
+    padding: 92px 24px 0;
+  }
+}
+
+@media screen and (max-width: 760px) {
   .footer {
     display: block;
-    padding: 92px 24px 0;
   }
 }
 
