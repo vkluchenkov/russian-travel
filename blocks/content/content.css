@@ -1,5 +1,6 @@
 .content {
   max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 30px repeat(12, 1fr) 30px;

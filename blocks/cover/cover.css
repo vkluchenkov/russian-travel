@@ -1,15 +1,26 @@
 .cover {
   grid-area: cover;
-  display: flex;
-  align-items: stretch;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   width: 100%;
   background-image: url(../../images/cover-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 740px;
+  /* min-height: 740px; */
 }
 
+.cover::before {
+    content: '';
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    display: block;
+    width: 100%;
+    padding-top: 62.5%;
+}
+/* 
 @media screen and (max-width: 1024px) {
   .cover {
     min-height: 640px;
@@ -32,4 +43,4 @@
   .cover {
     min-height: 200px;
   }
-}
+} */

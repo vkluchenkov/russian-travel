@@ -1,4 +1,7 @@
 .cover__link {
+  /* position: relative; */
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
   text-decoration: none;
   width: 100%;
   display: flex;
