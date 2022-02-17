@@ -1,14 +1,13 @@
-# Проект «Путешествие по России»
+# Проект «Путешествие по России» / Project Russian travel
 
-## Планы по доработке проекта отсутствуют.
+## Описание / Description
+Учебный проект по адаптивной html верстке по макету из Figma.
 
-## Описание
-Учебный проект третьего спринта курса «Веб-разработчик» Яндекс.Практикума.
-Адаптивная верстка по макету из Фигмы.
+Study project, created from Figma design file. The purpose is to create adaptive html layout.
 
-## Используемые технологии:
-- html;
-- css.
+## Используемые технологии / Stack
+- HTML5;
+- CSS3.
 
-## Демо:
+## Демо / Demo
 https://vkluchenkov.github.io/russian-travel/
